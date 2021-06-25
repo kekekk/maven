@@ -12,7 +12,7 @@
 
     <groupId>com.springcloudstudy</groupId>
     <artifactId>consume</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>consume</name>
     <description>Demo project for Spring Boot</description>
     <properties>
@@ -72,6 +72,13 @@
 
     </dependencies>
 
+    <scm>
+        <url>https://github.com/kekekk/maven/tree/main</url>
+        <connection>scm:git:https://github.com/kekekk/maven.git</connection>
+        <developerConnection>scm:git:https://github.com/kekekk/maven.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
     <build>
         <plugins>
             <plugin>
@@ -97,9 +104,10 @@
 
     <distributionManagement>
         <repository>
-            <id>github-release</id>
-            <name>GitHub Release</name>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/kekekk/maven</url>
         </repository>
     </distributionManagement>
+
 </project>
