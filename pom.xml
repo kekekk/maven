@@ -11,7 +11,7 @@
 
     <groupId>com.springcloudstudy</groupId>
     <artifactId>consume</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>consume</name>
     <description>Demo project for Spring Boot</description>
     <properties>
