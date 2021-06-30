@@ -11,7 +11,7 @@
 
     <groupId>com.springcloudstudy</groupId>
     <artifactId>consume</artifactId>
-    <version>0.0.4</version>
+    <version>0.0.4-SNAPSHOT</version>
     <name>consume</name>
     <description>Demo project for Spring Boot</description>
     <properties>
@@ -75,7 +75,7 @@
         <url>https://github.com/kekekk/maven/tree/main</url>
         <connection>scm:git:https://github.com/kekekk/maven.git</connection>
         <developerConnection>scm:git:https://github.com/kekekk/maven.git</developerConnection>
-        <tag>consume-0.0.4</tag>
+        <tag>consume-0.0.2</tag>
     </scm>
 
     <build>
@@ -83,22 +83,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>org.asciidoctor</groupId>
-                <artifactId>asciidoctor-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>generate-docs</id>
-                        <phase>prepare-package</phase>
-                        <goals>
-                            <goal>process-asciidoc</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <skip>${asciidoctor.skip}</skip>
-                </configuration>
             </plugin>
         </plugins>
     </build>
